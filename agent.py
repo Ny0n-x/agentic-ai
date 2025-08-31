@@ -15,7 +15,7 @@ import json
 import hashlib
 import streamlit as st
 from io import BytesIO
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 
 # Try to import genai and types robustly
