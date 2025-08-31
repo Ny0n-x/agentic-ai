@@ -32,10 +32,10 @@ except Exception:
         types = None
 
 # -------------------- Configuration --------------------
-load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY")
-# API_KEY = st.secrets["GEMINI_API_KEY"]
-# client = genai.Client(api_key=API_KEY)
+# load_dotenv()
+# API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = st.secrets["GEMINI_API_KEY"]
+client = genai.Client(api_key=API_KEY)
 if not API_KEY:
     raise RuntimeError("GEMINI_API_KEY not found in environment. Set it server-side before running the app.")
 
