@@ -324,7 +324,7 @@ INPUT_CONTENT:
 
 TASK:
 1) Generate exactly {count} questions mixing:
-   - EXACTLY 1 multiple-choice question (MCQ) with 4 options.
+   - EXACTLY 3 multiple-choice questions (MCQ) with 4 options.
    - the rest short-answer questions.
 2) Each question must have:
    - id (integer, 1-based)
